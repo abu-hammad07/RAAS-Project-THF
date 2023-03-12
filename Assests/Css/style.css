@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+body {
+  font-family: 'PT Serif', serif;
+}
+*{
+
+  font-family: 'Poppins', sans-serif;
+}
+.h-roboto {
+  font-family: 'Roboto Slab', serif;
+}
+.h-poppins {
+  font-family: 'Poppins', sans-serif;
+}
+h1 {
+  font-family: 'PT Serif', serif;
+}
+
+
+
+/*======================= Navbar ========================*/
+/* #main-nav {
+    background-color: #264bae;
+}
+#nav {
+    background-color: none;
+    left: 0;
+    top: 0;
+    z-index: 1;
+} */
+.nav-item .nav-link {
+    color: #fafafa;
+    font-family: 'Poppins', sans-serif;
+}
+.nav-item .nav-link:hover {
+    color: #46ab39;
+}
+
+
+/*======================= About THF ========================*/
+#about-thf {
+    background-color: #E3DFFD;
+    padding: 100px 0;
+}
+
+
+/*======================= Future THF ========================*/
+#future {
+    padding: 100px 0;
+}
+#mission {
+    padding: 100px 0 10px 0;
+}
+#vision {
+    padding: 10px 0 100px 0;
+}
+
+
+
+/*======================= working-towards THF ========================*/
+#working-towards {
+    padding: 200px 0;
+    background-color: #E3DFFD;
+}
+
+
+
+/*======================= THF Institute THF ========================*/
+#thf-institute {
+    padding: 150px 0 100px 0;
+}
+.thf-institute-images:hover {
+    opacity: 0.9;
+}
+.card {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: 0.5s;
+    margin-top: 50px;
+}
+.card:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+
+
+/* the-GROWTH */
+.icon-GROWTH {
+    color: #003E8A;
+  }
+  
+  #growth {
+    background-image: url(../Images/bg-image.jpg);
+    width: 100%;
+    height: 64vh;
+    background-position: 100%;
+    background-size: cover;
+    color: white;
+    position: relative;
+    margin-top: 100px;
+    padding-bottom: 50px;
+    padding-top: 70px;
+  
+  }
+  
+  #growth::before {
+    content: "";
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.75);
+    width: 100%;
+    height: 64vh;
+    top: 0;
+  }
+  
+
+
+
+
+
+
+
+#raas-about {
+  padding: 100px 0;
+  background-color: #c3c3c3;
+}
+
+
+
+
+
+
+/* contact */
+#contact {
+  background-color: #f6f7f8;
+}
+.fa-contact {
+  font-size: 30px;
+  color: #175cff;
+  background-color: #a4b6e1;
+  padding: 20px 20px;
+  border-radius: 100px;
+}
+.contact-a:hover {
+  text-decoration: none;
+  color: #175cff;
+}
+
+
+  /*========================== footer ==========================*/
+  #footer {
+    background-color: #000;
+    padding-top: 30px;
+}
+.footer-h1 {
+    color: #fff;
+    font-family: 'PT Serif', serif;
+}
+.footer-p {
+    color: #fff;
+    font-size: 16px;
+}
+.footer-h3 {
+    color: #fff;
+}
+.footer-icon {
+    background-color: #091d64;
+    padding: 20px 20px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 20px;
+}
+.footer-icon:hover {
+    background-color: #175cff;
+}
+hr {
+    /* color: #fff; */
+    border: 2px solid white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @media only screen and (min-width: 600px) and (max-width:993px) {
+    #growth {
+      background-image: url(../Images/bg-image.jpg);
+      width: 100%;
+      height: 100vh;
+      background-position: 100%;
+      background-size: cover;
+      color: white;
+      position: relative;
+    }
+    #growth::before {
+      content: "";
+      position: absolute;
+      background-color: rgba(0, 0, 0, 0.75);
+      width: 100%;
+      height: 100vh;
+      top: 0;
+    }
+
+
+}
+
+
+@media only screen and (max-width: 600px) {
+    #growth {
+      background-image: url(../Images/bg-image.jpg);
+      width: 100%;
+      height: 100vh;
+      background-position: 100%;
+      background-size: cover;
+      color: white;
+      position: relative;
+    }
+    #growth::before {
+      content: "";
+      position: absolute;
+      background-color: rgba(0, 0, 0, 0.75);
+      width: 100%;
+      height: 100vh;
+      top: 0;
+    }
+    iframe {
+        width: 100%;
+        height: 300px;
+    }
+
+}
+
+
